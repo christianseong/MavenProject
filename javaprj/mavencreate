@@ -8,3 +8,5 @@ mvn compile
 </properties>
 
 mvn package
+
+java -cp target\javaprj-1.0-SNAPSHOT.jar com.newlecture.App
