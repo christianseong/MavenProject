@@ -1,0 +1,12 @@
+mvn archetype:generate -DgroupId=yourgroudId -DartifactId=yourprojectname -DarchetypeArtifactId=maven-archetype-quickstart
+
+
+mvn compile
+<properties>
+  <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
+</properties>
+
+mvn package
+
+java -cp target\javaprj-1.0-SNAPSHOT.jar com.newlecture.App
